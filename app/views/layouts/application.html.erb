@@ -5,6 +5,8 @@
     <meta name="viewport" content="width=device-width,initial-scale=1">
     <%= csrf_meta_tags %>
     <%= csp_meta_tag %>
+    
+    <!--Entering Google Fonts-->
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="//fonts.googleapis.com/css2?family=Goblin+One&family=Open+Sans:wght@300&display=swap" rel="stylesheet">
     
@@ -13,6 +15,8 @@
   </head>
 
   <body>
-    <%= yield %>
+    <div class="container">
+      <%= yield %>
+    </div>
   </body>
 </html>
