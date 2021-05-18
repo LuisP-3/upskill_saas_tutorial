@@ -33,6 +33,19 @@
   border: none;
 }
 
+.navbar-inverse .navbar-brand{
+  color:white;
+}
+
+.navbar-inverse .navbar-nav > li > a{
+  color:white;
+}
+
+.navbar-inverse .navbar-brand:hover, .navbar-inverse .navbar-nav > li > a:hover{
+  color:white;
+  opacity:0.75; 
+}
+
 h1, h2, h3 {
   font-family: 'Open Sans', sans-serif;
 
